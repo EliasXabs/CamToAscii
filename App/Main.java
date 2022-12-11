@@ -34,7 +34,7 @@ public class Main implements Runnable {
     }
 
     public String imageToASCII(BufferedImage todisplay) {
-        String density = "    .'`^,:;Il!i><~+_-?][}{1)(/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";
+        String density = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/()1{}[]?-_+~<>i!lI;:,^`'.             ";
         try {
             Image image = loadImage(todisplay);
             int width = image.getWidth(null);
